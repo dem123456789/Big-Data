@@ -1,0 +1,438 @@
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                   Class
+Attribute         EDIBLE POISONOUS
+                  (0.53)    (0.47)
+===================================
+ABUNDANT
+  mean             0.1141         0
+  std. dev.        0.3179    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+ALMOND
+  mean             0.0891         0
+  std. dev.        0.2849    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+ANISE
+  mean             0.0891         0
+  std. dev.        0.2849    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+ATTACHED
+  mean             0.0428    0.0061
+  std. dev.        0.2024    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+BELL
+  mean               0.09    0.0122
+  std. dev.        0.2862    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+BLACK
+  mean             0.4412    0.0652
+  std. dev.        0.4965    0.2468
+  weight sum         4488      3928
+  precision             1         1
+
+BROAD
+  mean             0.9305    0.4338
+  std. dev.        0.2543    0.4956
+  weight sum         4488      3928
+  precision             1         1
+
+BROWN
+  mean             0.6662     0.499
+  std. dev.        0.4716       0.5
+  weight sum         4488      3928
+  precision             1         1
+
+BRUISES
+  mean             0.6132    0.1589
+  std. dev.         0.487    0.3655
+  weight sum         4488      3928
+  precision             1         1
+
+BUFF
+  mean             0.0214    0.6538
+  std. dev.        0.1667    0.4758
+  weight sum         4488      3928
+  precision             1         1
+
+BULBOUS
+  mean             0.4332    0.4725
+  std. dev.        0.4955    0.4992
+  weight sum         4488      3928
+  precision             1         1
+
+CHOCOLATE
+  mean             0.0677    0.4033
+  std. dev.        0.2513    0.4906
+  weight sum         4488      3928
+  precision             1         1
+
+CINNAMON
+  mean             0.0071    0.0122
+  std. dev.        0.1667    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+CLOSE
+  mean             0.6702    0.9715
+  std. dev.        0.4701    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+CLUB
+  mean             0.1141    0.0143
+  std. dev.        0.3179    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+CLUSTERED
+  mean             0.0642    0.0163
+  std. dev.        0.2451    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+CONICAL
+  mean                  0     0.001
+  std. dev.        0.1667    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+CONVEX
+  mean             0.4643    0.4358
+  std. dev.        0.4987    0.4959
+  weight sum         4488      3928
+  precision             1         1
+
+CREOSOTE
+  mean                  0    0.0489
+  std. dev.        0.1667    0.2156
+  weight sum         4488      3928
+  precision             1         1
+
+CROWDED
+  mean             0.3298    0.0285
+  std. dev.        0.4701    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+ENLARGING
+  mean             0.3654    0.4868
+  std. dev.        0.4815    0.4998
+  weight sum         4488      3928
+  precision             1         1
+
+EQUAL
+  mean             0.2496    0.0652
+  std. dev.        0.4328    0.2468
+  weight sum         4488      3928
+  precision             1         1
+
+EVANESCENT
+  mean              0.287    0.4501
+  std. dev.        0.4524    0.4975
+  weight sum         4488      3928
+  precision             1         1
+
+FIBROUS
+  mean             0.4811    0.2485
+  std. dev.        0.4996    0.4321
+  weight sum         4488      3928
+  precision             1         1
+
+FISHY
+  mean                  0    0.1466
+  std. dev.        0.1667    0.3537
+  weight sum         4488      3928
+  precision             1         1
+
+FLARING
+  mean             0.0107         0
+  std. dev.        0.1667    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+FLAT
+  mean             0.3859    0.3971
+  std. dev.        0.4868    0.4893
+  weight sum         4488      3928
+  precision             1         1
+
+FOUL
+  mean                  0    0.5499
+  std. dev.        0.1667    0.4975
+  weight sum         4488      3928
+  precision             1         1
+
+FREE
+  mean             0.9572    0.9939
+  std. dev.        0.2024    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+GRASSES
+  mean             0.3708    0.1884
+  std. dev.         0.483     0.391
+  weight sum         4488      3928
+  precision             1         1
+
+GRAY
+  mean             0.4715    0.2749
+  std. dev.        0.4992    0.4465
+  weight sum         4488      3928
+  precision             1         1
+
+GREEN
+  mean             0.0036    0.0183
+  std. dev.        0.1667    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+GROOVES
+  mean                  0     0.001
+  std. dev.        0.1667    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+KNOBBED
+  mean             0.0526    0.1538
+  std. dev.        0.2232    0.3607
+  weight sum         4488      3928
+  precision             1         1
+
+LARGE
+  mean                  0    0.3299
+  std. dev.        0.1667    0.4702
+  weight sum         4488      3928
+  precision             1         1
+
+LEAVES
+  mean             0.0588    0.1507
+  std. dev.        0.2353    0.3578
+  weight sum         4488      3928
+  precision             1         1
+
+MEADOWS
+  mean              0.057    0.0092
+  std. dev.        0.2319    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+MUSTY
+  mean                  0    0.0122
+  std. dev.        0.1667    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+NARROW
+  mean             0.0695    0.5662
+  std. dev.        0.2543    0.4956
+  weight sum         4488      3928
+  precision             1         1
+
+NO
+  mean             0.3868    0.8411
+  std. dev.         0.487    0.3655
+  weight sum         4488      3928
+  precision             1         1
+
+NONE
+  mean             0.8217    0.0428
+  std. dev.        0.3827    0.2023
+  weight sum         4488      3928
+  precision             1         1
+
+NUMEROUS
+  mean             0.0891         0
+  std. dev.        0.2849    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+ONE
+  mean             0.8824    0.9695
+  std. dev.        0.3222    0.1721
+  weight sum         4488      3928
+  precision             1         1
+
+ORANGE
+  mean             0.0428         0
+  std. dev.        0.2024    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+PARTIAL
+  mean                  1         1
+  std. dev.        0.0017    0.0017
+  weight sum         4488      3928
+  precision          0.01      0.01
+
+PATHS
+  mean             0.0303    0.2566
+  std. dev.        0.1714    0.4368
+  weight sum         4488      3928
+  precision             1         1
+
+PENDANT
+  mean             0.7023    0.2077
+  std. dev.        0.4572    0.4057
+  weight sum         4488      3928
+  precision             1         1
+
+PINK
+  mean              0.377    0.6334
+  std. dev.        0.4846    0.4819
+  weight sum         4488      3928
+  precision             1         1
+
+PUNGENT
+  mean                  0    0.0652
+  std. dev.        0.1667    0.2468
+  weight sum         4488      3928
+  precision             1         1
+
+PURPLE
+  mean             0.1123    0.0122
+  std. dev.        0.3157    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+RED
+  mean             0.1671     0.223
+  std. dev.        0.3731    0.4163
+  weight sum         4488      3928
+  precision             1         1
+
+ROOTED
+  mean             0.0428         0
+  std. dev.        0.2024    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+SCALY
+  mean             0.3396    0.4501
+  std. dev.        0.4736    0.4975
+  weight sum         4488      3928
+  precision             1         1
+
+SCATTERED
+  mean             0.2246    0.0937
+  std. dev.        0.4173    0.2914
+  weight sum         4488      3928
+  precision             1         1
+
+SEVERAL
+  mean             0.2709    0.7251
+  std. dev.        0.4444    0.4465
+  weight sum         4488      3928
+  precision             1         1
+
+SILKY
+  mean             0.0481    0.6802
+  std. dev.         0.214    0.4664
+  weight sum         4488      3928
+  precision             1         1
+
+SMOOTH
+  mean             0.9577    0.5927
+  std. dev.        0.2014    0.4913
+  weight sum         4488      3928
+  precision             1         1
+
+SOLITARY
+  mean             0.2371     0.165
+  std. dev.        0.4253    0.3712
+  weight sum         4488      3928
+  precision             1         1
+
+SPICY
+  mean                  0    0.1466
+  std. dev.        0.1667    0.3537
+  weight sum         4488      3928
+  precision             1         1
+
+SUNKEN
+  mean             0.0071         0
+  std. dev.        0.1667    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+TAPERING
+  mean             0.6346    0.5132
+  std. dev.        0.4815    0.4998
+  weight sum         4488      3928
+  precision             1         1
+
+TWO
+  mean             0.1176    0.0183
+  std. dev.        0.3222    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+URBAN
+  mean             0.0214    0.0692
+  std. dev.        0.1667    0.2539
+  weight sum         4488      3928
+  precision             1         1
+
+WASTE
+  mean             0.0428         0
+  std. dev.        0.2024    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+WHITE
+  mean             0.9572         1
+  std. dev.        0.2024    0.1667
+  weight sum         4488      3928
+  precision             1         1
+
+WOODS
+  mean             0.4189    0.3259
+  std. dev.        0.4934    0.4687
+  weight sum         4488      3928
+  precision             1         1
+
+YELLOW
+  mean             0.1105    0.1792
+  std. dev.        0.3135    0.3835
+  weight sum         4488      3928
+  precision             1         1
+
+
+
+Time taken to build model: 0.11 seconds
+
+=== Evaluation on test split ===
+=== Summary ===
+
+Correctly Classified Instances        2731               95.4561 %
+Incorrectly Classified Instances       130                4.5439 %
+Kappa statistic                          0.9083
+Mean absolute error                      0.0486
+Root mean squared error                  0.2035
+Relative absolute error                  9.7637 %
+Root relative squared error             40.7731 %
+Total Number of Instances             2861     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.997     0.093      0.924     0.997     0.959      0.985    EDIBLE
+                 0.907     0.003      0.996     0.907     0.949      0.985    POISONOUS
+Weighted Avg.    0.955     0.051      0.958     0.955     0.954      0.985
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1510    5 |    a = EDIBLE
+  125 1221 |    b = POISONOUS

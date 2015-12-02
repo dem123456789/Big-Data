@@ -1,0 +1,110 @@
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: EDIBLE, POISONOUS
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.3679 * (normalized) ALMOND
+ +      -1.3679 * (normalized) ANISE
+ +      -0.1564 * (normalized) ATTACHED
+ +       0.0001 * (normalized) BELL
+ +      -0.2011 * (normalized) BLACK
+ +      -0.7242 * (normalized) BROAD
+ +      -0.2016 * (normalized) BROWN
+ +       0.1227 * (normalized) BRUISES
+ +       0.0003 * (normalized) BUFF
+ +       0.5366 * (normalized) BULBOUS
+ +      -0.1574 * (normalized) CHOCOLATE
+ +      -0.0013 * (normalized) CINNAMON
+ +       0.5589 * (normalized) CLOSE
+ +       0.3556 * (normalized) CLUB
+ +       1.2355 * (normalized) CLUSTERED
+ +       0.0011 * (normalized) CONICAL
+ +       0      * (normalized) CONVEX
+ +       1.5079 * (normalized) CREOSOTE
+ +      -0.5589 * (normalized) CROWDED
+ +       0.0134 * (normalized) ENLARGING
+ +      -0.6242 * (normalized) EQUAL
+ +       0.5415 * (normalized) EVANESCENT
+ +      -0.4555 * (normalized) FIBROUS
+ +       0.4072 * (normalized) FISHY
+ +      -1.145  * (normalized) FLARING
+ +      -0.0001 * (normalized) FLAT
+ +       0.9876 * (normalized) FOUL
+ +       0.1564 * (normalized) FREE
+ +       0.4612 * (normalized) GRASSES
+ +       0      * (normalized) GRAY
+ +       1.4361 * (normalized) GREEN
+ +       0.0001 * (normalized) GROOVES
+ +       0      * (normalized) KNOBBED
+ +       0      * (normalized) LARGE
+ +      -0.1035 * (normalized) LEAVES
+ +       0.4612 * (normalized) MEADOWS
+ +       0.0309 * (normalized) MUSTY
+ +       0.7242 * (normalized) NARROW
+ +      -0.1227 * (normalized) NO
+ +      -1.037  * (normalized) NONE
+ +      -0.2876 * (normalized) NUMEROUS
+ +       0.0593 * (normalized) ONE
+ +      -0.1873 * (normalized) ORANGE
+ +      -0.1026 * (normalized) PATHS
+ +       0.5726 * (normalized) PENDANT
+ +      -0.0001 * (normalized) PINK
+ +       0.463  * (normalized) PUNGENT
+ +      -0.2011 * (normalized) PURPLE
+ +      -0.0011 * (normalized) RED
+ +       0      * (normalized) ROOTED
+ +       0      * (normalized) SCALY
+ +      -0.2872 * (normalized) SCATTERED
+ +      -0.2868 * (normalized) SEVERAL
+ +       1.3372 * (normalized) SILKY
+ +      -0.4558 * (normalized) SMOOTH
+ +      -0.3739 * (normalized) SOLITARY
+ +       0.4071 * (normalized) SPICY
+ +      -0.0012 * (normalized) SUNKEN
+ +      -0.0134 * (normalized) TAPERING
+ +      -0.0902 * (normalized) TWO
+ +       0.3634 * (normalized) URBAN
+ +      -1.0563 * (normalized) WASTE
+ +       0.1873 * (normalized) WHITE
+ +      -0.0234 * (normalized) WOODS
+ +       0.0005 * (normalized) YELLOW
+ -       0.4519
+
+Number of kernel evaluations: 1259865 (71.648% cached)
+
+
+
+Time taken to build model: 0.62 seconds
+
+=== Evaluation on test split ===
+=== Summary ===
+
+Correctly Classified Instances        2861              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances             2861     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        EDIBLE
+                 1         0          1         1         1          1        POISONOUS
+Weighted Avg.    1         0          1         1         1          1    
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1515    0 |    a = EDIBLE
+    0 1346 |    b = POISONOUS

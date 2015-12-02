@@ -1,0 +1,33 @@
+=== Classifier model (full training set) ===
+
+Random forest of 100 trees, each constructed while considering 7 random features.
+Out of bag error: 0
+
+
+
+Time taken to build model: 5 seconds
+
+=== Evaluation on test split ===
+=== Summary ===
+
+Correctly Classified Instances        2861              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0009
+Root mean squared error                  0.0085
+Relative absolute error                  0.172  %
+Root relative squared error              1.7053 %
+Total Number of Instances             2861     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        EDIBLE
+                 1         0          1         1         1          1        POISONOUS
+Weighted Avg.    1         0          1         1         1          1    
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1515    0 |    a = EDIBLE
+    0 1346 |    b = POISONOUS

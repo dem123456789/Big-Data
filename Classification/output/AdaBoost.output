@@ -1,0 +1,263 @@
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+Decision Stump
+
+Classifications
+
+NONE <= 0.5 : POISONOUS
+NONE > 0.5 : EDIBLE
+NONE is missing : EDIBLE
+
+Class distributions
+
+NONE <= 0.5
+EDIBLE	POISONOUS	
+0.17543859649122806	0.8245614035087719	
+NONE > 0.5
+EDIBLE	POISONOUS	
+0.9564315352697096	0.043568464730290454	
+NONE is missing
+EDIBLE	POISONOUS	
+0.5332699619771863	0.4667300380228137	
+
+
+Weight: 2.04
+
+Decision Stump
+
+Classifications
+
+SILKY <= 0.5 : EDIBLE
+SILKY > 0.5 : POISONOUS
+SILKY is missing : EDIBLE
+
+Class distributions
+
+SILKY <= 0.5
+EDIBLE	POISONOUS	
+0.8391722039407309	0.16082779605926914	
+SILKY > 0.5
+EDIBLE	POISONOUS	
+0.06309264015751419	0.9369073598424859	
+SILKY is missing
+EDIBLE	POISONOUS	
+0.6608063843196966	0.3391936156803033	
+
+
+Weight: 1.83
+
+Decision Stump
+
+Classifications
+
+SEVERAL <= 0.5 : EDIBLE
+SEVERAL > 0.5 : POISONOUS
+SEVERAL is missing : POISONOUS
+
+Class distributions
+
+SEVERAL <= 0.5
+EDIBLE	POISONOUS	
+0.6909963012015945	0.30900369879840545	
+SEVERAL > 0.5
+EDIBLE	POISONOUS	
+0.14892460253800738	0.8510753974619926	
+SEVERAL is missing
+EDIBLE	POISONOUS	
+0.4274457965907637	0.5725542034092364	
+
+
+Weight: 1.2
+
+Decision Stump
+
+Classifications
+
+FOUL <= 0.5 : POISONOUS
+FOUL > 0.5 : POISONOUS
+FOUL is missing : POISONOUS
+
+Class distributions
+
+FOUL <= 0.5
+EDIBLE	POISONOUS	
+0.48617159832611684	0.5138284016738831	
+FOUL > 0.5
+EDIBLE	POISONOUS	
+-6.809719234329304E-14	1.0000000000000682	
+FOUL is missing
+EDIBLE	POISONOUS	
+0.3875018546414613	0.6124981453585387	
+
+
+Weight: 0.46
+
+Decision Stump
+
+Classifications
+
+FOUL <= 0.5 : EDIBLE
+FOUL > 0.5 : POISONOUS
+FOUL is missing : EDIBLE
+
+Class distributions
+
+FOUL <= 0.5
+EDIBLE	POISONOUS	
+0.5992875783305196	0.4007124216694804	
+FOUL > 0.5
+EDIBLE	POISONOUS	
+-1.7996971018084597E-14	1.000000000000018	
+FOUL is missing
+EDIBLE	POISONOUS	
+0.5000000000000028	0.49999999999999717	
+
+
+Weight: 0.69
+
+Decision Stump
+
+Classifications
+
+ALMOND <= 0.5 : POISONOUS
+ALMOND > 0.5 : EDIBLE
+ALMOND is missing : POISONOUS
+
+Class distributions
+
+ALMOND <= 0.5
+EDIBLE	POISONOUS	
+0.308740838824368	0.691259161175632	
+ALMOND > 0.5
+EDIBLE	POISONOUS	
+1.000000000000082	-8.193799113731325E-14	
+ALMOND is missing
+EDIBLE	POISONOUS	
+0.37555807035958594	0.624441929640414	
+
+
+Weight: 0.95
+
+Decision Stump
+
+Classifications
+
+ANISE <= 0.5 : POISONOUS
+ANISE > 0.5 : EDIBLE
+ANISE is missing : EDIBLE
+
+Class distributions
+
+ANISE <= 0.5
+EDIBLE	POISONOUS	
+0.47626467791983185	0.5237353220801683	
+ANISE > 0.5
+EDIBLE	POISONOUS	
+1.000000000000017	-1.7210227794509036E-14	
+ANISE is missing
+EDIBLE	POISONOUS	
+0.5670225301210012	0.4329774698789987	
+
+
+Weight: 0.43
+
+Decision Stump
+
+Classifications
+
+BROAD <= 0.5 : POISONOUS
+BROAD > 0.5 : EDIBLE
+BROAD is missing : EDIBLE
+
+Class distributions
+
+BROAD <= 0.5
+EDIBLE	POISONOUS	
+0.32166045889962835	0.6783395411003715	
+BROAD > 0.5
+EDIBLE	POISONOUS	
+0.7919677645676257	0.20803223543237417	
+BROAD is missing
+EDIBLE	POISONOUS	
+0.6429151974506461	0.3570848025493538	
+
+
+Weight: 1.13
+
+Decision Stump
+
+Classifications
+
+FOUL <= 0.5 : EDIBLE
+FOUL > 0.5 : POISONOUS
+FOUL is missing : EDIBLE
+
+Class distributions
+
+FOUL <= 0.5
+EDIBLE	POISONOUS	
+0.6509091838327627	0.34909081616723725	
+FOUL > 0.5
+EDIBLE	POISONOUS	
+-4.6098773707953665E-14	1.0000000000000462	
+FOUL is missing
+EDIBLE	POISONOUS	
+0.5666679598853146	0.4333320401146854	
+
+
+Weight: 0.83
+
+Decision Stump
+
+Classifications
+
+GREEN <= 0.5 : EDIBLE
+GREEN > 0.5 : POISONOUS
+GREEN is missing : POISONOUS
+
+Class distributions
+
+GREEN <= 0.5
+EDIBLE	POISONOUS	
+0.5106785243679423	0.48932147563205763	
+GREEN > 0.5
+EDIBLE	POISONOUS	
+0.013652698107170244	0.9863473018928297	
+GREEN is missing
+EDIBLE	POISONOUS	
+0.4070371098532719	0.592962890146728	
+
+
+Weight: 0.45
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 1.22 seconds
+
+=== Evaluation on test split ===
+=== Summary ===
+
+Correctly Classified Instances        2775               96.9941 %
+Incorrectly Classified Instances        86                3.0059 %
+Kappa statistic                          0.9396
+Mean absolute error                      0.0625
+Root mean squared error                  0.181 
+Relative absolute error                 12.5536 %
+Root relative squared error             36.2519 %
+Total Number of Instances             2861     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.977     0.038      0.967     0.977     0.972      0.993    EDIBLE
+                 0.962     0.023      0.974     0.962     0.968      0.993    POISONOUS
+Weighted Avg.    0.97      0.031      0.97      0.97      0.97       0.993
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1480   35 |    a = EDIBLE
+   51 1295 |    b = POISONOUS

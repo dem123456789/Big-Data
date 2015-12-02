@@ -1,0 +1,57 @@
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+NONE <= 0
+|   ALMOND <= 0
+|   |   ANISE <= 0: POISONOUS (3760.0)
+|   |   ANISE > 0: EDIBLE (400.0)
+|   ALMOND > 0: EDIBLE (400.0)
+NONE > 0
+|   CLUB <= 0
+|   |   GREEN <= 0
+|   |   |   BROAD <= 0
+|   |   |   |   SILKY <= 0
+|   |   |   |   |   FIBROUS <= 0
+|   |   |   |   |   |   BROWN <= 0: POISONOUS (8.0)
+|   |   |   |   |   |   BROWN > 0: EDIBLE (9.0)
+|   |   |   |   |   FIBROUS > 0: EDIBLE (191.0)
+|   |   |   |   SILKY > 0: POISONOUS (32.0)
+|   |   |   BROAD > 0: EDIBLE (3472.0)
+|   |   GREEN > 0
+|   |   |   BROAD <= 0: EDIBLE (16.0)
+|   |   |   BROAD > 0: POISONOUS (72.0)
+|   CLUB > 0: POISONOUS (56.0)
+
+Number of Leaves  : 	11
+
+Size of the tree : 	21
+
+
+Time taken to build model: 0.63 seconds
+
+=== Evaluation on test split ===
+=== Summary ===
+
+Correctly Classified Instances        2861              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances             2861     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        EDIBLE
+                 1         0          1         1         1          1        POISONOUS
+Weighted Avg.    1         0          1         1         1          1    
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1515    0 |    a = EDIBLE
+    0 1346 |    b = POISONOUS

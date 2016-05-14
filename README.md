@@ -6,11 +6,13 @@ Classification and Clustering on Distributed Machine Learning Platforms, Mahout 
 ## Weka
 1. Naive Bayes Classification on Mushroom dataset.  
 2. Frequent Pattern Matching  
+
 ## Hadoop
 1. WordCount built from 20 newsgroup example  
 2. Naive Bayes Classification on mushroom dataset.  
 3. Music Genre Classification and Clustering with Naive Bayes, Random Forest and K-Means
 4. MIPS dataset Classification and Clustering with Naive Bayes, Random Forest and K-Means
+
 ## Spark
 1. Music Genre Classification and Clustering with Naive Bayes and Random Forest
 2. MINIST Classification with Naive Bayes and Random Forest

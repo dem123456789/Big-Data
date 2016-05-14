@@ -31,7 +31,10 @@ Classification and Clustering on Distributed Machine Learning Platforms, Mahout 
 
 ## Credits
 
-*Enmao Diao*
+*Arjun Anand  
+Enmao Diao  
+Meera Kamath  
+Sairam Balani*
 
 ## License
 

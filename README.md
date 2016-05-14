@@ -1,6 +1,5 @@
 # BIG DATA
 
-CS4365/CS8803 Class Homework and Project  
 Classification and Clustering on Distributed Machine Learning Platforms, Mahout and Spark.
 
 ## Weka

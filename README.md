@@ -1,4 +1,4 @@
-# BIG DATA
+# Big Data
 
 Classification and Clustering on Distributed Machine Learning Platforms, Mahout and Spark.
 
